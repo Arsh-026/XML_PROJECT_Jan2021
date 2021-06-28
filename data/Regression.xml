@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression">
+
+	<test name="LoginTest">
+
+		<parameter name="username" value="demo@techfios.com"></parameter>
+		<parameter name="password" value="abc123"/>
+		
+		<parameter name="fullName" value="Traci"/>
+		<parameter name="company" value="Techfios"/>
+		<parameter name="email" value="msexcell@gmail.com"/>
+		<parameter name="phone" value="0bcd000000"/>
+		<parameter name="address" value="123 building drive"/>
+		<parameter name="city" value="Carrolton"/>
+		<parameter name="state" value="Paris"/>
+		<parameter name="Zip" value="p7f5009"/>
+		<parameter name="country" value="France"/>
+
+		<classes>
+
+			 <class name="test.LoginTest" /> <!-- you can use /> or </class> to close the tab -->
+			<class name="test.CustomerTest"/>  
+			 <class name="test.ListCustomerTest"/>  
+
+		</classes>
+
+
+	</test>
+
+</suite>
